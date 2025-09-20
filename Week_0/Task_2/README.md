@@ -15,6 +15,15 @@ The installation was performed on a **dual-boot system** with the following hard
 
 ---
 
+## ✅ Prerequisite Dependencies Verification
+
+[cite_start]Before installing the main EDA tools, the build environment was confirmed by checking the versions of essential prerequisite packages like Git, Docker, Python, and Make.
+
+*Screenshot showing the output of the dependency version checks:*
+![Dependencies Verification](check_dependencies.png)
+
+---
+
 ## 🛠️ Tool Installation Verification
 
 The following open-source EDA tools were installed as per the instructions. A screenshot is attached for each tool to verify its successful installation.
@@ -54,18 +63,18 @@ The following open-source EDA tools were installed as per the instructions. A sc
 *Screenshot showing ngspice running or its version number:*
 ![ngspice Verification](ngspice_verification.png)
 
-### 6. Check dependencies 
+### 6. OpenLane
 
 **OpenLane** is an automated RTL to GDSII flow that integrates many of the tools listed above to create a complete, automated chip design pipeline. Its installation requires **Docker**.
 
 *Screenshot of the successful Docker `hello-world` test:*
-![Docker Verification](check_dependencies.png)
+![Docker Verification](docker_verification.png)
 
 ---
 
 ## ✅ OpenLane and PDK Setup
 
-The final step in the setup was to build the OpenLane environment and install the required Process Design Kits (PDKs). This was accomplished by running the `make` and `make test` commands inside the OpenLane directory.
+The final step in the setup was to build the OpenLane environment and install the required Process Design Kits (PDKs). [cite_start]This was accomplished by running the `make` and `make test` commands inside the OpenLane directory. [cite: 80, 81]
 
 *Screenshot of the final output of the `make test` command, showing that all tests passed successfully:*
 ![OpenLane PDK Setup Verification](openlane_test_verification.png)
