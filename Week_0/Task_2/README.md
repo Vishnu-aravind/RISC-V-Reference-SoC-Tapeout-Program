@@ -6,11 +6,12 @@ This document provides a record of the successful installation and setup of the 
 
 ## 💻 System Configuration
 
-The installation was performed on a virtual machine with the following specifications:
-* **Operating System**: Ubuntu 20.04+
-* **vCPUs**: 4
-* **RAM**: 6 GB
-* **HDD**: 50 GB
+The installation was performed on a **dual-boot system** with the following hardware and software specifications:
+
+* **Operating System**: Ubuntu 22.04.5 LTS
+* **Processor (CPU)**: 12th Gen Intel(R) Core(TM) i7-12650H (16 Cores)
+* **RAM**: 15Gi
+* **Root Partition Size**: 145G
 
 ---
 
