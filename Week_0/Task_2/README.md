@@ -54,12 +54,12 @@ The following open-source EDA tools were installed as per the instructions. A sc
 *Screenshot showing ngspice running or its version number:*
 ![ngspice Verification](ngspice_verification.png)
 
-### 6. OpenLane
+### 6. Check dependencies 
 
 **OpenLane** is an automated RTL to GDSII flow that integrates many of the tools listed above to create a complete, automated chip design pipeline. Its installation requires **Docker**.
 
 *Screenshot of the successful Docker `hello-world` test:*
-![Docker Verification](docker_verification.png)
+![Docker Verification](check_dependencies.png)
 
 ---
 
