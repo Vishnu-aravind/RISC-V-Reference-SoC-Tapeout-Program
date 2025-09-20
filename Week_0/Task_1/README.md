@@ -24,7 +24,7 @@ Before we even think about hardware, the design process begins with a high-level
 
 Here, the abstract software model is translated into a description of actual digital hardware components.
 
-* **What is it?** This is the "soft copy of the hardware," written in a **Hardware Description Language (HDL)** like Verilog, SystemVerilog, or Chisel. This code describes how data flows between registers and is processed by combinatorial logic (the "Register-Transfer Level").
+* **What is it?** This is the "soft copy of the hardware," written in a **Hardware Description Language (HDL)** like Verilog, BlueSpecSystemVerilog, or Chisel. This code describes how data flows between registers and is processed by combinatorial logic (the "Register-Transfer Level").
 * **The Concept of "Synthesizable" Code**: This is the most crucial constraint. The HDL must be **synthesizable**, meaning it describes a circuit that can actually be built. For example, a behavioral delay like `#10;` in Verilog is useful for simulation but cannot be turned into physical gates. In contrast, a flip-flop described with `always @(posedge clk)` is fully synthesizable.
 * **Verification Check (`O1 == O2`)**: The RTL code is run in a simulator, and its output (`O2`) is compared bit-for-bit against the Golden Reference Model's output (`O1`). This confirms that the hardware description accurately implements the software specification.
 
