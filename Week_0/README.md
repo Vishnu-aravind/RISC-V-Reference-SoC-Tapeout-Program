@@ -18,7 +18,7 @@ Before we even think about hardware, the design process begins with a high-level
 * **The First Critical Verification ($O_0 = O_1$)**: To prove the model's logic is algorithmically pure and not dependent on a specific tool, the *exact same C code* is compiled with multiple toolchains:
     1.  First, it's compiled with a standard `gcc` compiler on a host machine to get a baseline output (`Oo`).
     2.  Then, it's cross-compiled for the target architecture (e.g., using `riscv-gcc` or `arm-gcc`) to get a second output (`O1`).
-* **Why is this done?** If `$O_{0}=O_{1}$`, it proves the logic is mathematically sound and free from any quirks of a specific compiler. This validated C-model now becomes the trusted blueprint for the entire project.
+* **Why is this done?** If **($O_{0}=O_{1}$)**, it proves the logic is mathematically sound and free from any quirks of a specific compiler. This validated C-model now becomes the trusted blueprint for the entire project.
 
 ### Stage 2: RTL Architecture (Describing the Hardware)
 
