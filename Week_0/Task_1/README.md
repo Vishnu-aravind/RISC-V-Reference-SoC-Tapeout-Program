@@ -71,4 +71,4 @@ This is the culmination of the entire design effort—sending the final blueprin
 ## ⏱️ Project Timeline
 
 * The entire end-to-end chip design process, from specification to tapeout-ready GDSII, takes approximately **14 months**.
-* Of this time, the actual manufacturing at the foundry only takes the final **3 to 4 months**.
+* Of this time, the manufacturing at the foundry takes **3 to 4 months**.
